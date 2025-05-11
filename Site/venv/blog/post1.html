@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новости разработки The North</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        /* Дополнительные стили для карточек */
+        .news-card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .news-card h3 {
+            margin-top: 0;
+            color: #333;
+            font-size: 1.5em;
+        }
+
+        .news-card p {
+            margin-bottom: 8px;
+        }
+
+        .news-card .date {
+            color: #777;
+            font-size: 0.8em;
+            margin-bottom: 10px;
+        }
+
+        .news-card img {
+            max-width: 100%; /* Чтобы картинки не выходили за пределы карточки */
+            height: auto;
+            margin-bottom: 10px;
+            border-radius: 4px; /* Закругление углов у картинок */
+        }
+
+        .news-card video {
+            display: block;
+            margin-top: 10px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>The North</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Главная</a></li>
+                    <li><a href="../about.html">О проекте</a></li>
+                    <li><a href="../participants.html">Участники</a></li>
+                    <li><a href="../blog/post1.html">Журнал</a></li>
+                    <li><a href="../resources.html">Ресурсы</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2>Новости разработки</h2>
+
+            <div class="news-card">
+                <div class="date">2025-05-05</div>
+                <h3>Улучшения в Сюжете и Детализация</h3>
+                <p>Мы продолжаем работу над детализацией сюжета, стараясь сделать его максимально захватывающим и интересным. В последнем обновлении мы добавили больше деталей в последнее действие в сюжете, чтобы сделать его более понятным и увлекательным. Мы стремимся создать глубокий и проработанный мир для наших игроков.</p>
+            </div>
+
+            <div class="news-card">
+                <div class="date">2025-04-28</div>
+                <h3>Играбельный билд и Тестирование</h3>
+                <p>Рады сообщить о выпуске нового играбельного билда!  В этом билде представлена сцена для тестирования предметов, что позволит нам лучше отладить игровые механики.</p>
+                <video controls width="100%" height="240" style="border-radius: 4px;">
+                    <source src="videoGame1.mp4" type="video/mp4">
+                    Ваш браузер не поддерживает воспроизведение видео.
+                </video>
+            </div>
+
+            <div class="news-card">
+                <div class="date">2025-04-21</div>
+                <h3>Улучшения Интерфейса и Управления</h3>
+                <p>Мы внесли ряд улучшений в интерфейс и управление, чтобы сделать игру более удобной и интуитивно понятной:</p>
+                <ul>
+                    <li>Добавлены подсказки по управлению, чтобы помочь игрокам освоиться с игровым процессом.</li>
+                    <li>Реализована возможность перезапуска сцены через меню, что упрощает тестирование и повторное прохождение.</li>
+                    <li>Добавлена обводка интерактивных объектов, чтобы игрокам было проще взаимодействовать с игровым миром.</li>
+                </ul>
+            </div>
+
+            <div class="news-card">
+                <div class="date">2025-04-14</div>
+                <h3>Новый Игровой Остров: Ольфа</h3>
+                <p>Мы рады представить вам Ольфу - второй игровой остров, вдохновленный скандинавскими островами.  Этот остров имеет больший масштаб и обещает предложить игрокам новые приключения и открытия.</p>
+                <img src="olfa.jpg" alt="Изображение Ольфы">
+            </div>
+
+            <div class="news-card">
+                <div class="date">2025-04-07</div>
+                <h3>Визуальные Улучшения</h3>
+                <p>Мы работаем над улучшением визуальной составляющей игры.  Были созданы новые арты для локаций для вдохновения.</p>
+                <img src="voin.jpg" alt="Новый арт">
+            </div>
+
+            <div class="news-card">
+                <div class="date">2025-03-31</div>
+                <h3>Разработка Инвентаря и Квестов</h3>
+                <p>Параллельно с другими задачами мы активно работаем над двумя важными системами:</p>
+                <ul>
+                    <li>Добавлен UI инвентаря, что позволит игрокам управлять своим снаряжением и предметами.</li>
+                    <li>Начата разработка квестовой системы.</li>
+                </ul>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 The North</p>
+        </div>
+    </footer>
+</body>
+</html>
