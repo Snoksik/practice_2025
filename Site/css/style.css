@@ -11,7 +11,7 @@ body {
     min-height: 100vh;
 }
 
-.container { /* Добавлен класс container */
+.container {
     width: 100%;
     max-width: 960px; /* Ограничиваем ширину контента */
     margin: 0 auto; /* Центрируем по горизонтали */
@@ -31,7 +31,7 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Добавляем тень */
 }
 
-header .container { /* Стиль для контента внутри header.container */
+header .container {
     display: flex;
     justify-content: space-between; /* Располагаем элементы по краям */
     align-items: center; /* Центрируем по вертикали */
@@ -106,7 +106,7 @@ footer {
     text-align: center;
 }
 
-footer .container { /* Стиль для контента внутри footer.container */
+footer .container {
     padding: 0; /* Убираем padding для ровного края */
 }
 
@@ -165,3 +165,4 @@ a:hover {
     font-weight: bold;
     color: #555; /* Более темный цвет для ролей и вклада */
 }
+
